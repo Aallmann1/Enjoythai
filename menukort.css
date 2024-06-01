@@ -1,0 +1,199 @@
+
+.body {
+    background-color: #F5A5C2;
+}
+
+.bg-pink {
+    background-color: #F5A5C2;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-pink {
+    color: #F5A5C2;
+    font-family: Koulen;
+}
+
+.text-white{
+    color: #ffffff;
+    font-family: Koulen;
+}
+
+.navbar-text {
+    font-size: 25px;
+}
+
+.containertakeaway {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.containertakeaway img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.containertakeaway .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containertakeaway .btn {
+    background-color: #f5a5c2;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Koulen;
+}
+
+#menuimg {
+    text-align: center;
+}
+
+.fontmain {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-3.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.c-item {
+    height: 300px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.carousel-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#menukort {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px solid #F5A5C2;
+    box-sizing: border-box;
+    height: 81px;
+    font-family: Koulen;
+    font-size: 25px;
+}
+
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+}
+
+.thaidame2-icon {
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 299px;
+    height: 299px;
+    object-fit: cover;
+}
+
+.group-item {
+    position: relative;
+    top: 95px;
+    left: 25%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: #f5a5c2;
+    width: 208px;
+    height: 220px;
+}
+
+.vi-er-enjoy {
+    position: absolute;
+    top: 110px;
+    left: 25%;
+    transform: translateX(-50%);
+}
+
+.hej-med-dig {
+    position: absolute;
+    top: 149px;
+    left: 25%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-family: 'Chakra Petch';
+    display: inline-block;
+    width: 179px;
+    text-align: left;
+}
+
+.rectangle-parent {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    height: 385px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Koulen;
+}
+
+
+/* Additional CSS for the new feature */
+
+#category-filter, #sort-order {
+    width: 100%;
+}
+
+.menu-item {
+    display: block;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.rounded-circle {
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-body button {
+    margin-left: auto; /* This will push the button to the right */
+  }

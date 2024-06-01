@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ENJOYTHAIFOOD</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Koulen:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body class="body">
+<!-- Bootstrap Navbar -->
+<header>
+    <nav class="navbar bg-body-tertiary fixed-top p-0 shadow-lg position-relative">
+        <div class="container-fluid bg-pink d-flex justify-content-between align-items-center">
+            <a class="navbar-brand m-0" href="index.html">
+                <img src="./img/thaidame 9.png" alt="Brand Logo">
+            </a>
+            <a href="index.html" class="no-underline">  <span class="navbar-text mx-auto text-white">ENJOY THAI FOOD</span> </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title text-pink" id="offcanvasNavbarLabel">ENJOYTHAIFOOD</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-pink">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="menukort.html">Menukort</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="opskrifter.html">Opskrifter</a>
+                    </li>
+                </ul>
+            </div>
+    
+    </nav>
+</header>
+
+<main>
+    <div class="containertakeaway bg-pink p-3">
+        <img src="./img/pad-sew.jpg" alt="Takeaway" class="img-fluid">
+        <div class="overlay">
+            <a href="menukort.html" class=" btn btn-secondary">Bestil Takeaway</a>
+        </div>
+    </div>
+
+
+</div>
+
+    <div class="text-center mt-4 p-3 text-pink containertakeaway ">
+        <a href="menukort.html" class="text-white containertakeaway btn">menukort</a>
+    </div>
+<!--boootstrap-->
+    <div class="carousel-container bg-pink ">
+        <div id="carouselmenu" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselmenu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselmenu" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselmenu" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <a href="menukort.html"> <img src="./img/padthai.png" class="d-block w-100 c-img" alt="Pad Thai"> </a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="menukort.html">   <img src="./img/panang.png" class="d-block w-100 c-img" alt="Panang Curry"></a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="menukort.html">   <img src="./img/baked-shrimp.jpg" class="d-block w-100 c-img" alt="Fried Shrimp"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselmenu" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselmenu" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--boootstrap-->
+    </div>
+
+    <!-- Figma Plugin Section -->
+    <div class="container-seo ">
+        <h1 class="text-pink">Vi er</h1>
+        <p> Oplev ægte thailandsk madlavning hos EnjoyThaiFood, din foretrukne destination for 
+            autentiske thailandske retter i hjertet af Ringsted. Vores erfarne kokke bruger de fineste 
+            ingredienser og traditionelle opskrifter for at bringe dig en smagsoplevelse, som vil tage dig 
+            direkte til Thailand. Uanset om du er i humør til spicy curries, 
+            friske salater eller lækre nudelretter, har vi noget for enhver smag.</p>
+            <h1 class="text-pink">Hvorfor Spise hos os?</h1>
+
+            <li>Autentisk Thai Mad: Vi tilbyder et bredt udvalg af autentiske 
+                thailandske retter, tilberedt med kærlighed og de bedste ingredienser.</li>
+
+                <li> Central Beliggenhed i Ringsted: Beliggende centralt i Ringsted, 
+                    er vi let tilgængelige for både lokale og besøgende.</li>
+
+                    <li> Fremragende Service: Vores venlige personale er altid klar til 
+                        at give dig en fremragende service og en uforglemmelig oplevelse.</li>
+        
+                        <h1 class="text-pink">Favorit retter</h1>
+                        <li> Hjemmelavede Forårsruller: Sprøde og lækre forårsruller med hakket kylling og chilisauce.</li>
+                        <li> Kai Saté (kyllingespyd): Marinerede kyllingspyd i karry og kokosmælk serveret med hjemmelavet peanutsauce.</li>
+                        <li>Indbagte Rejer: Sprøde rejer serveret med en lækker chilisauce.</li>
+                        <li> Kokos Suppe (Tom Kha): En smagfuld kokosmælkssuppe med kylling eller rejer, champignon, gulerødder og koriander.</li>
+                       <h1 class="text-pink ">Opskrifter</h1> </a>
+                                <p > Kom og se vores opskrifter, her kan i læse omkring hvordan i selv kan lave jeres 
+                                    engen version af vores retter. Kom også og besøg resturanten det er muligt at købe friske råvarer til opskrifterne hos os!</p>
+                                    <a href="opskrifter.html" class="pink-button">Klik her!</a>
+                        
+
+    </div>
+
+    <!-- Customer Feedback Section -->
+    <section id="customer-feedback" class="container my-5">
+        <h2 class="text-center mb-4 text-white">Andmeldser</h2>
+        <div class="row">
+            <!-- Customer 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./img/MSA.jpg" class="rounded-circle mb-3" alt="Customer 1">
+                        <h5 class="card-title">Marcus Sylvester</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">May 24, 2024</h6>
+                        <p class="card-text">"Har været i thailand for noget tid siden og deres mad smager præcis som du ville få det i thailand!"</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./img/Max.jpg" class="rounded-circle mb-3" alt="Customer 2">
+                        <h5 class="card-title">Max Smith</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">May 23, 2024</h6>
+                        <p class="card-text">"Friske råvarer, god smag, venlig betjening, rent og pænt sted 👍 Jeg savnede dog lidt mere original thai smag i stedet for den lidt fordanskede udgave af thai mad"</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./img/faris.jpg" class="rounded-circle mb-3" alt="Customer 3">
+                        <h5 class="card-title">Lee wu</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">May 22, 2024</h6>
+                        <p class="card-text">"Fik pad thai (stegte nudler) med kylling. Nogle af de klassiske ingredienser var skiftet ud med danske grøntsager, men det smagte dejligt, og saucen som nudlerne var stegt i sad lige i skabet🙂👍"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+</main>
+  <!-- Footer Section -->
+<footer class="bg-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <!-- About Us -->
+                <div class="col-md-4 mb-3 ">
+                    <h5 class="text-pink">Omkring os</h5>
+                    <p>Autentisk thai takeaway, tilberedt af friske råvarer. Vi kan selvfølgelig også sørge for lækker thailandsk mad til alt fra fødselsdage, firmafester, 
+                        bryllupper, konfirmationer og andre arrangementer. Husk at vi også har vegetariske muligheder til rådighed på menuen.</p>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-pink">Kontakt information</h5>
+                    <p>Address: Enjoy thai food, Tinggade 10, 4100 Ringsted</p>
+                    <p>Phone: +45 	30 23 33 37</p>
+                    <p>Email: mad@enjoythaifood.dk </p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-pink"s>Follow Us</h5>
+                    <a href="https://www.facebook.com/Enjoythaifood.dk" target="_blank" class="logosome me-3 no-underline">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="logosome me-3 no-underline">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-rigths">
+                    <p class="mb-0">&copy; 2024 EnjoyThaiFood. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>

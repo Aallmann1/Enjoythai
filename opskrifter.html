@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ENJOYTHAIFOOD</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Koulen:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.0/papaparse.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body class="body">
+<!-- Bootstrap Navbar -->
+<header>
+    <nav class="navbar bg-body-tertiary fixed-top p-0 shadow-lg position-relative">
+        <div class="container-fluid bg-pink d-flex justify-content-between align-items-center">
+            <a class="navbar-brand m-0" href="index.html">
+                <img src="./img/thaidame 9.png" alt="Brand Logo">
+            </a>
+            <a href="index.html" class="no-underline">  <span class="navbar-text mx-auto text-white">ENJOY THAI FOOD</span> </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title text-pink" id="offcanvasNavbarLabel">ENJOYTHAIFOOD</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-pink">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="menukort.html">Menukort</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="opskrifter.html">Opskrifter</a>
+                    </li>
+                </ul>
+            </div>
+    
+    </nav>
+</header>
+
+<main class="bodybody">
+
+    <div class="container-opskrifter">
+        <h1 class="text-pink">Vores Nemme Thai Opskrifter</h1>
+
+        <div class="recipe">
+            <h2 class="text-pink">Pad Thai</h2>
+            <h3  >Ingredienser</h3>
+            <ul>
+                <li>Risnudler: 200g</li>
+                <li>Rejer eller kylling: 200g</li>
+                <li>Tofu: 100g</li>
+                <li>Æg: 2</li>
+                <li>Bønnespirer: 100g</li>
+                <li>Grønne løg: 2 stykker</li>
+                <li>Peanuts: 50g</li>
+                <li>Lime: 1</li>
+                <li>Fiskesauce: 3 spsk</li>
+                <li>Tamarindpasta: 2 spsk</li>
+                <li>Sukker: 1 spsk</li>
+                <li>Hvidløg: 2 fed</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Sautér hvidløg og protein i en pande.</li>
+                <li>Tilsæt kogte risnudler, tamarindpasta, sukker og fiskesauce.</li>
+                <li>Skub til side af panden og tilbered æg.</li>
+                <li>Bland sammen med bønnespirer og grønne løg.</li>
+                <li>Top med peanuts og lime.</li>
+            </ol>
+        </div>
+
+        <div class="recipe">
+            <h2 class="text-pink">Tom Yum Goong (Spicy Rejesuppe)</h2>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>Rejer: 200g</li>
+                <li>Champignon: 100g</li>
+                <li>Tomater: 2</li>
+                <li>Galangarod: 1 stykke</li>
+                <li>Citrongræs: 2 stængler</li>
+                <li>Kaffir limeblade: 4</li>
+                <li>Chili: 2</li>
+                <li>Limejuice: 2 spsk</li>
+                <li>Fiskesauce: 2 spsk</li>
+                <li>Koriander: Til pynt</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Kog citrongræs, galangarod og kaffir limeblade i vand.</li>
+                <li>Tilsæt rejer og champignon.</li>
+                <li>Smag til med chili, fiskesauce og limejuice.</li>
+                <li>Top med koriander.</li>
+            </ol>
+        </div>
+
+        <div class="recipe">
+            <h2 class="text-pink">Green Curry</h2>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>Kylling: 200g</li>
+                <li>Grøn karrypasta: 2 spsk</li>
+                <li>Kokosmælk: 400ml</li>
+                <li>Aubergine: 1</li>
+                <li>Bambusskud: 100g</li>
+                <li>Basilikumblade: Til pynt</li>
+                <li>Fiskesauce: 2 spsk</li>
+                <li>Sukker: 1 spsk</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Sautér grøn karrypasta i lidt olie.</li>
+                <li>Tilsæt kylling og kog til den er næsten færdig.</li>
+                <li>Hæld kokosmælk i og tilføj grøntsager.</li>
+                <li>Lad det simre indtil alt er mørt.</li>
+                <li>Smag til med fiskesauce og sukker.</li>
+                <li>Tilføj basilikum til sidst.</li>
+            </ol>
+        </div>
+
+        <div class="recipe">
+            <h2 class="text-pink">Som Tum (Papayasalat)</h2>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>Grøn papaya: 1</li>
+                <li>Cherrytomater: 100g</li>
+                <li>Grønne bønner: 50g</li>
+                <li>Gulerødder: 2</li>
+                <li>Hvidløg: 2 fed</li>
+                <li>Chili: 2</li>
+                <li>Fiskesauce: 2 spsk</li>
+                <li>Limejuice: 2 spsk</li>
+                <li>Sukker: 1 spsk</li>
+                <li>Peanuts: 50g</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Riv papaya og gulerødder.</li>
+                <li>Knus hvidløg og chili i en morter.</li>
+                <li>Bland sammen med grøntsager, fiskesauce, limejuice og sukker.</li>
+                <li>Top med peanuts.</li>
+            </ol>
+        </div>
+
+        <div class="recipe">
+            <h2 class="text-pink">Thai Basil Chicken (Gai Pad Krapow)</h2>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>Kyllingefars: 200g</li>
+                <li>Hvidløg: 2 fed</li>
+                <li>Chili: 2</li>
+                <li>Grønne bønner: 100g</li>
+                <li>Sojasauce: 2 spsk</li>
+                <li>Fiskesauce: 1 spsk</li>
+                <li>Sukker: 1 tsk</li>
+                <li>Basilikumblade: Til pynt</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Sautér hvidløg og chili.</li>
+                <li>Tilsæt kyllingefars og brun det.</li>
+                <li>Tilsæt sojasauce, fiskesauce, sukker og grønne bønner.</li>
+                <li>Lad det simre indtil bønnerne er møre.</li>
+                <li>Bland basilikum i til sidst.</li>
+            </ol>
+        </div>
+
+        <div class="recipe">
+            <h2 class="text-pink">Thai Fried Rice</h2>
+            <h3>Ingredienser</h3>
+            <ul>
+                <li>Kogte ris: 400g</li>
+                <li>Kylling eller rejer: 200g</li>
+                <li>Æg: 2</li>
+                <li>Løg: 1</li>
+                <li>Hvidløg: 2 fed</li>
+                <li>Gulerødder: 2</li>
+                <li>Ærter: 100g</li>
+                <li>Sojasauce: 2 spsk</li>
+                <li>Fiskesauce: 1 spsk</li>
+                <li>Lime: 1</li>
+            </ul>
+            <h3>Fremgangsmåde</h3>
+            <ol>
+                <li>Sautér hvidløg og løg.</li>
+                <li>Tilsæt kylling eller rejer og brun det.</li>
+                <li>Skub til side og tilbered æg.</li>
+                <li>Bland sammen med ris og grøntsager.</li>
+                <li>Smag til med sojasauce og fiskesauce.</li>
+                <li>Server med lime.</li>
+            </ol>
+        </div>
+    </div>
+
+</main>
+
+  <!-- Footer Section -->
+  <!-- Footer Section -->
+  <footer class="bg-white mt-5 py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Us -->
+            <div class="col-md-4 mb-3 ">
+                <h5 class="text-pink">Omkring os</h5>
+                <p>Autentisk thai takeaway, tilberedt af friske råvarer. Vi kan selvfølgelig også sørge for lækker thailandsk mad til alt fra fødselsdage, firmafester, 
+                    bryllupper, konfirmationer og andre arrangementer. Husk at vi også har vegetariske muligheder til rådighed på menuen.</p>
+            </div>
+            <!-- Contact Info -->
+            <div class="col-md-4 mb-3">
+                <h5 class="text-pink">Kontakt information</h5>
+                <p>Address: Enjoy thai food, Tinggade 10, 4100 Ringsted</p>
+                <p>Phone: +45 	30 23 33 37</p>
+                <p>Email: mad@enjoythaifood.dk </p>
+            </div>
+            <!-- Social Media Links -->
+            <div class="col-md-4 mb-3">
+                <h5 class="text-pink"s>Follow Us</h5>
+                <a href="https://www.facebook.com/Enjoythaifood.dk" target="_blank" class="logosome me-3 no-underline">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="logosome me-3 no-underline">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col text-rigths">
+                <p class="mb-0">&copy; 2024 EnjoyThaiFood. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>

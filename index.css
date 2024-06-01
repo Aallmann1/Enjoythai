@@ -1,0 +1,302 @@
+
+.body {
+    background-color: #F5A5C2;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.bg-pink {
+    background-color: #F5A5C2;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-pink {
+    color: #F5A5C2;
+    font-family: Koulen;
+}
+
+.text-white{
+    color: #ffffff;
+    font-family: Koulen;
+}
+
+.text-white2{
+    color: #ffffff;
+    font-family: chakra petch;
+}
+
+.biggerandbetter {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+
+p { 
+font-family: 'Chakra Petch'
+}
+.navbar-text {
+    font-size: 25px;
+}
+
+.offcanvas-body .nav-link {
+    font-size: 20px; 
+    font-family: 'Chakra Petch', sans-serif;
+    transition: color 0.3s, transform 0.3s; 
+}
+
+.offcanvas-body .nav-link:hover {
+    color: #d17f98; 
+    transform: scale(1.05); 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.containertakeaway {
+    position: relative;
+    text-align: center;
+    color: #F5A5C2;
+    margin-top: 20px;
+}
+
+.containertakeaway .btn:hover {
+    background-color: #c4436a;
+}
+
+.containertakeaway .img-fluid {
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.containertakeaway .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containertakeaway .btn {
+    background-color: #f5a5c2;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-family: Koulen;
+}
+
+.p-3.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.c-item {
+    height: 300px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.carousel-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #F5A5C2;
+    border-radius: 10%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill="%23F5A5C2" d="M4.146 0.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L6.293 4 4.146 1.854a.5.5 0 0 1 0-.708z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill="%23F5A5C2" d="M3.854 0.146a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L1.707 4l2.147-2.146a.5.5 0 0 0 0-.708z"%3E%3C/path%3E%3C/svg%3E');
+}
+#menuimg {
+    text-align: center;
+}
+
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+}
+
+.container-seo {
+    text-align: center;
+    padding: 20px;
+    width: 95vw;
+    background: #ffffff;
+    height: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+p, li {
+    text-align: left;
+    font-family: 'Chakra Petch'
+}
+
+.pink-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F5A5C2;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: 'koulen';
+    border-radius: 5px;
+    
+  }
+  .pink-button:hover {
+    background-color: #c4436a;
+    border-radius: 5px;
+  }
+
+.rectangle-parent {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    height: 385px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: Koulen;
+}
+
+.text-center {
+    font-size: 50px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+
+#category-filter, #sort-order {
+    width: 100%;
+}
+
+.menu-item {
+    display: block;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.rounded-circle {
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.logosome .fab {
+    color: #F5A5C2; 
+    width: 20px;
+    
+}
+
+.logosome .fab:hover {
+    color: #c4436a;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.card-body button {
+    margin-left: auto; /* This will push the button to the right */
+    background-color: #F5A5C2;
+}
+
+
+footer p {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.container-opskrifter {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.recipe {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: koulen;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.contact-form {
+    margin: 20px 0;
+    margin-top: 100px;
+    padding-left: 10%;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 90%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #F5A5C2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #ffff;
+}
+.contact-form button:hover {
+    background-color: #c4436a;
+}
